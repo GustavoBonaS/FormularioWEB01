@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <div>
+    <h1>Empresa Rio do Vale</h1> 
+    <h2>Vagas para trabalho!</h2>
+    <fieldset>
+        <p>Empresa Rio do Vale está contrando jovens para fazerem parte da empresa!</p>
+        <p>Para você, jovem, que está a procura de emprego, venha fazer parte da nossa equipe!</p>
+       <h4>Tecnico em Informatica</h4>
+       <h5>Requisitos:</h5>
+        <p>-Acima de 17 anos.
+             <br>
+            -Segundo grau completo ou cursando.
+            <br>
+            -Conhecimento em sistemas web.
+            <br>
+            -Não necessita experiencia na area.
+            <br>
+            -Conhecimento em pacote office.
+            <br>
+            -Cursando area de TI
+            <br>
+            -Comprometimento e vontade de aprender.
+            <H4> A empresa oferece: </H4>
+            -Auxilio transporte.
+            <br>
+            -Vale alimentação.
+            <br>
+            -Remuneração compativel com função, podendo ter aumentos.
+        </p>
+    </fieldset>
+    
+    <br>
+    </div>
+
+<form action="informacoes">
+    <fieldset>
+        <legend>Informações Pessoais</legend>
+        <div>
+            <label >Nome</label>
+            <input type="text" name="nome" id = "nome" placeholder="Digite seu nome">
+        </div>
+        <div>
+            <label>Sobrenome</label>
+            <input type="text" name="Sobrenome" id = "Sobrenome" placeholder="Digite seu sobrenome">
+        </div>
+        <div>
+            <label for="Idade">Sua idade</label>
+            <input type="number" name="idade" placeholder="Sua Idade aqui">
+        </div>
+        <div>
+            <p>Data de nascimento</p> <input type="date" name="nascimento"> 
+        </div>
+        <br>
+        <label for="Sexo">Seu Sexo: </label> <br>
+        <input type="radio" name="sexo" value="M">Masculino <br>
+        <input type="radio" name="sexo" value="F">Feminino
+       <div>
+           <label for="endereço">Seu endereço: </label>
+           <input type="text" name="Estado" id="estado" placeholder="Seu Estado">
+           <input type="text" name="cidade" id="cidade" placeholder="Sua Cidade">
+           <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço"> 
+           <br>
+           <br>
+           <label for="tell">Telefone para contato: </label>
+           <input type="tel" name="tell" id="tell" placeholder="(--) ----- ----">
+           <label for="email">Digite seu email: </label>
+           <input type="email" name="email" id="email" placeholder="seu.email@email">
+       </div>
+       <br>
+       <textarea name="info" id="info" cols="30" rows="10">Conte-nos sobre você!</textarea>
+        <br>
+       <input type="submit" value="Enviar">
+    </fieldset>
+</form>
+</body>
+</html>
